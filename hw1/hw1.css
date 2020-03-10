@@ -1,0 +1,27 @@
+body {
+    font-family: "Open Sans";
+}
+
+.quote {
+    border-left: 2px solid;
+    margin-left: 5%;
+    line-height: inherit;
+    border-left-color: lightgray;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #ec0b43;
+    border: 2px solid #ec0b43;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 7px;
+}
+
+/*.btn:hover{*/
+/*    background-color: #f52458;*/
+/*    color: white;*/
+/*    border: 2px solid #f52458;*/
+/*    transition-duration: 0.2s;*/
+/*}*/

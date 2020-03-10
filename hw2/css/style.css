@@ -1,0 +1,40 @@
+div.utils_container {
+    padding: 1%;
+}
+
+th, td.center {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: 2%;
+}
+
+caption {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.5ex 1em 0.5ex 1em;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+tr:hover {
+    background-color: lightyellow;
+}
+
+th.descending:after {
+    content: "\25BC";
+}
+
+th.ascending:after {
+    content: "\25B2";
+}

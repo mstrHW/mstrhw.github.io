@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+<div class="utils_container">
+    <div class="slider_container">
+        <span>Time range:</span>
+        <label id="min_year_label">0</label>
+        <input type='range' min='0' max='100' value='50'
+               step='1' class='slider'>
+        <label id="max_year_label">100</label>
+    </div>
+    <div id="continent_filter">
+        <span>Filter by:</span>
+        <input type='checkbox' name='america' value="Americas">
+        <span>Americas</span>
+        <input type='checkbox' name='africa' value="Africa">
+        <span>Africa</span>
+        <input type='checkbox' name='asia' value="Asia">
+        <span>Asia</span>
+        <input type='checkbox' name='europe' value="Europe">
+        <span>Europe</span>
+        <input type='checkbox' name='oceania' value="Oceania">
+        <span>Oceania</span>
+    </div>
+    <div class="radio">
+        <span>Aggregate by:</span>
+        <input type="radio" name="aggregate" value="default" checked>
+        <span>None</span>
+        <input type='radio' name="aggregate" value="aggregate">
+        <span>Continent</span>
+    </div>
+</div>
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="js/table.js"></script>
+</body>
+</html>

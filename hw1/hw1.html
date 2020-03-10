@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>hw1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="hw1.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
 </head>
+
 <body>
+
+<div class="content" style="max-width:960px;margin-left:25px;" >
+    <h1 style="color:#1946ba">First VIS101 Homework</h1>
+
+    <div style="border-style:solid;border-color:#F5F5F5;">
+        <h2 style="padding-left:10px;">Quote Of the Day:</h2>
+        <div class="quote">
+            <blockquote style="margin-left:5px;">
+                <span id="quote">
+                    All successful men and women are big dreamers. They imagine what their future could be, ideal in every respect,
+                    and then they work every day toward their distant vision, that goal or purpose.
+                </span>
+                – <span id="author">Brian Tracy</span>
+            </blockquote>
+        </div>
+    </div>
+
+    <div>
+        <button class="button" onclick="nextQuote()">Change Quote Of the Day</button>
+        <button class="button" onclick="quotesFromUrl()">Get Quote from URL</button>
+    </div>
+
+</div>
+
+<script src="hw1.js"></script>
 </body>
 </html>
