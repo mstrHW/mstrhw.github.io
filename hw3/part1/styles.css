@@ -52,7 +52,14 @@
 
 @font-face {
     font-family: 'font1';
-    src: url('/assets/font1.ttf');
+    src: url('assets/font1.ttf');
+}
+
+.map-grid {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .1;
+    stroke-dasharray: 2, 1;
 }
 
 h1 {
