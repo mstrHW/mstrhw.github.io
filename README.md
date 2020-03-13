@@ -1,5 +1,7 @@
 # mstrhw.github.io
 
+student: Onishchuk Aleksey, group: C42131c
+
 [Homework 1](http://mstrHW.github.io/hw1/hw1)
 
 [Homework 2. Table](http://mstrHW.github.io/hw2/table)
